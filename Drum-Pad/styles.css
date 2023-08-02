@@ -1,0 +1,53 @@
+body {
+    background-color: #071952;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  main {
+    text-align: center;
+    padding: 20px;
+    background-color: #8062D6;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-family: debug;
+  }
+  
+  #drum-machine {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .drum-pad {
+    background-color: #071952;
+    color: #97FEED;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .drum-pad:hover {
+    background-color: #9288F8;
+    color:white;
+  }
+  
+  #display {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: debug;
+  }
+  
